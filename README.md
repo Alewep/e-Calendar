@@ -1,6 +1,6 @@
 # e-Calendar
 
-e-Calendar est une extension pour le navigateur chrome
+e-Calendar est une extension pour les navigateurs chrome (Chromium, Google chrome)
 qui permet de filtrer votre emploi du temps
 ## Installation
 Télécharger le dossier puis aller sur :
