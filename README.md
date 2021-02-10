@@ -9,5 +9,6 @@ Télécharger le dossier puis allez sur :
 suivez les instructions 1 à 7 dans la section "*Étape 2 : Testez l'application ou l'extension*"
 
 Si vous shouaitez installer l'extension sur Android, vous pouvez à l'aide de kiwi browser (Téléchargeable sur le google play store) 
+vous devez au préalable l'empacter sur votre ordinateur avec votre navigateur dans les paramètres extensions
 ## Utilisation
 Dans la barre de votre navigateur selectionnez l'extension, la page de l'application apparaît rentrez-y la regex qui vous permet de filtrer votre emploi du temps.
