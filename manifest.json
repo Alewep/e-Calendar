@@ -1,0 +1,21 @@
+{
+    "name" : "e-CalendarL3",
+    "description": "Extension pour les L3 informatique étudiant à l'université d'Angers",
+    "version": "0.0.1",
+    "background" : {
+        "scripts" : ["background.js"],
+        "persistent": true
+    },
+    "permissions":["webNavigation","storage","activeTab"],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+        "matches": ["https://edt.univ-angers.fr/edt/*"],
+        "js": ["injection.js"],
+        "run_at" : "document_start"
+        }
+    ], 
+    "manifest_version": 2
+}

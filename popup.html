@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>e-CalendarL3</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='popup.css'>
+</head>
+<body>
+    <div class="title">
+        <h1>e-Calendar</h1>
+    </div>
+    <p>Construisez votre regex sur <a href="https://regex101.com/">ce</a> site, puis coller la ici : </p>
+    <input type="text" id="regex"/>
+    <p> La regex doit matcher avec le textContent des tuiles que vous voulez conserver </p>
+    <div id="phidden">
+    <p >
+        <u>Aide pour construire votre regex : </u> <br \> <br />
+        pour chaque textContent l'extension effectue un test avec la regex sur le textContent sans les sauts de ligne (le test s'effectue sur le textContent auquel
+        on a préalablement enlever tout les sauts de lignes)
+        vous pouver verifier le TextContent des tuiles en tapant : <pre>document.getElementsByClassName('fc-time-grid-event')</pre>
+        dans la console du navigateur quand vous êtes dans votre emploi du temps,
+        vous obtiendrez la liste des tuiles. <pre>document.getElementsByClassName('fc-time-grid-event')[0].textContent </pre>
+        Selectionne le textContent de la première grille de la liste (celle qui est en haut à gauche sur votre page).</p>
+    </div>
+    <a href="#phidden" id = "clickhidden"> voir plus </a> 
+    <br /> <br />
+    <input type="radio" name="activation" id="yes" /> Activer
+    <input type="radio" name="activation" id="no" /> Désactiver 
+    <script type="text/javascript" src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    width: 500px;
+    height: 175px;
+    background-color:rgb(86, 85, 95);
+    color: white;
+    resize: horizontal;
+    resize: vertical;
+}
+a {
+    color: rgb(114, 235, 15);
+}
+.title {
+    background-color: cornflowerblue;
+    padding: 10px;
+   
+}
+#regex {
+    width: 475px ;
+    height: 30px;
+    resize: vertical;
+}
+
+#regex:focus {
+    outline-color:  #85C1E9 ;
+}
+
+#phidden {
+    display: none;
+}
